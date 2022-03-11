@@ -1,0 +1,141 @@
+version: '3.0'
+config:
+    store_entities_as_slots: true
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- start
+- arrival
+- csv
+- covid
+- transport_button
+- bus
+- train
+- taxi
+- car
+- contact_us
+- flight_tracking
+- functions_searchaflight
+- help
+- go_back
+- lista_arrivi
+- find_info:
+    use_entities: true
+- out_of_scope
+
+actions:
+- action_csv
+- action_arrival
+- action_info
+- arrival_csv
+- utter_covid
+- utter_bus
+- utter_train
+- utter_taxi
+- utter_car
+- utter_start
+- utter_transport
+- utter_buttons_searchaflight
+- utter_flight_tracking
+- utter_fallback
+- action_my_fallback
+- utter_contact
+- utter_help
+forms: {}
+e2e_actions: []
+entities:
+  - find_info1
+slots:
+   find_info1:
+     type: any
+     mappings:
+     - type: from_entity
+       entity: find_info1
+responses:
+  utter_covid:
+    - buttons:
+        - payload: start
+          title: 🔙 Go back 🔙
+      button_type: vertical
+      image: https://www.easa.europa.eu/sites/default/files/styles/list_view/public/ifu/EASA-website-general-information-news-item.jpg?itok=TfDNYOBT
+      text: You can find info on the link below (https://www.ancona-airport.com/en/passengers/passenger-guide/covid-19/)
+  utter_bus:
+  - image: https://thumbs.dreamstime.com/b/fermata-dell-autobus-con-la-gente-104778907.jpg
+    text: Here you can find the best bus solutions (https://www.ancona-airport.com/en/passengers/transportation/bus/)
+  utter_train:
+    - image: https://media.istockphoto.com/vectors/train-at-the-station-vector-id525221092?b=1&k=20&m=525221092&s=612x612&w=0&h=lqBV3Nn0nBvs5v9EhYITY8f8xsjxpuGI6_AVmS7vV-4=
+      text: Here you can find the best train solutions (https://www.ancona-airport.com/en/passengers/transportation/train/)
+  utter_taxi:
+    - image: https://img.freepik.com/free-vector/taxi-driver-helps-girl-with-luggage-people-stand-near-yellow-car_178888-298.jpg?size=626&ext=jpg
+      text: Here you can find the best taxi solutions (https://www.ancona-airport.com/en/passengers/transportation/taxi/)
+  utter_car:
+    - image: https://media.istockphoto.com/vectors/traffic-cars-on-the-road-perspective-horizon-with-map-pointer-view-vector-id1181146926?k=20&m=1181146926&s=612x612&w=0&h=jSai8lOgqpVs0CqjRs1cNMDMvh0PkVSJ5Ow5aFlVgPU=
+      text: Here you can find the best directions for reaching the airport by car (https://www.ancona-airport.com/en/passengers/transportation/car/)
+  utter_contact:
+  - buttons:
+      - payload: start
+        title: 🔙 Go back 🔙
+    button_type: vertical
+    text: Here you can find our contact details (https://www.ancona-airport.com/en/contacts/)
+  utter_start:
+  - buttons:
+    - payload: csv
+      title: Find a flight
+    - payload: covid
+      title: COVID-19 info
+    - payload: transport_button
+      title: Transportation
+    - payload: contact_us
+      title: Contact us
+    button_type: reply
+    text: Hello my name is Aldo, and I'm the Ancona's Airport assistant, how can I help you?🛩
+    image: "https://www.avionews.it/resources/800x800/5958345645ede9c6fb8bc846ac9b9fbc.jpg.jpg"
+  utter_transport:
+  - buttons:
+    - payload: bus
+      title: 🚌
+    - payload: train
+      title: 🚅
+    - payload: taxi
+      title: 🚕
+    - payload: car
+      title: 🚗
+    - payload: start
+      title: 🔙 Go back 🔙
+    button_type: vertical
+    text: Choose how you want travel to the airport
+  utter_buttons_searchaflight:
+   - buttons:
+     - payload: flight_tracking
+       title:  🔎 Flight Tracking 🔎
+     - payload: action_csv
+       title: 🛫 Departures 🛫
+     - payload: arrival_csv
+       title: 🛬 Arrivals 🛬
+     - payload: start
+       title: 🔙 Go back 🔙
+     button_type: reply
+     text: How you want search your flight?
+  utter_flight_tracking:
+    - text: "Please put your flight tracking number"
+  utter_help:
+    - buttons:
+          - payload: start
+            title: 🔙 Go back 🔙
+      button_type: reply
+      text: "I can help you finding your flight, just put the tracking number or the day you want to see Arrivals or Departures.
+      I can also show you available transportation method from and to Ancona's Airport.
+      You can find CovID-19 regulations in Italy: available through telegram menu or type covid."
+  utter_fallback:
+    - buttons:
+      - payload: csv
+        title: Find a flight
+      - payload: covid
+        title: COVID-19 info
+      - payload: transport_button
+        title: Transportation
+      - payload: contact_us
+        title: Contact us
+      button_type: reply
+      text: Sorry! I couldn't get you! Please use one of the following options.

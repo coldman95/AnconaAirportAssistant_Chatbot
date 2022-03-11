@@ -1,0 +1,28 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-find_info1",
+      "2": "I-find_info1",
+      "3": "L-find_info1",
+      "4": "U-find_info1",
+      "5": "B-nomegiorno1",
+      "6": "I-nomegiorno1",
+      "7": "L-nomegiorno1",
+      "8": "U-nomegiorno1",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-find_info1": 1,
+      "I-find_info1": 2,
+      "L-find_info1": 3,
+      "U-find_info1": 4,
+      "B-nomegiorno1": 5,
+      "I-nomegiorno1": 6,
+      "L-nomegiorno1": 7,
+      "U-nomegiorno1": 8,
+      "O": 0
+    },
+    "num_tags": 9
+  }
+]

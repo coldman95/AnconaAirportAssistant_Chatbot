@@ -1,0 +1,6 @@
+[
+  {
+    "name": "find_info1",
+    "pattern": "(\\bFR125\\b)"
+  }
+]

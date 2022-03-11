@@ -1,0 +1,6 @@
+[
+  {
+    "name": "find_info1",
+    "pattern": "(\\bFR125\\b|\\bLH1899\\b|\\bLH1898\\b|\\bLH1897\\b|\\bLH1896\\b|\\bLH1895\\b|\\bLH1894\\b|\\bLH1893\\b|\\bFR125\\b|\\bFR123\\b|\\bFR122\\b|\\bFR121\\b|\\bFR8043\\b|\\bFR8042\\b|\\bFR4491\\b|\\bFR4490\\b|\\bV71703\\b|\\bV71511\\b|\\bW63856\\b|\\b2B195\\b|\\bLH1889\\b|\\bLH1888\\b|\\bLH1887\\b|\\bLH1886\\b|\\bLH1885\\b|\\bLH1884\\b|\\bLH1883\\b|\\bFR126\\b|\\bFR127\\b|\\bFR128\\b|\\bFR129\\b|\\bFR130\\b|\\bFR8044\\b|\\bFR8045\\b|\\bFR4492\\b|\\bFR4493\\b|\\bV71704\\b|\\bV71512\\b|\\bW63855\\b|\\b2B196\\b)"
+  }
+]

@@ -1,0 +1,158 @@
+version: "3.0"
+nlu:
+- intent: start
+  examples: |
+    - start
+    - open
+    - begin
+    - init
+- intent: csv
+  examples: |
+    - 🛫 Departures 🛫
+    - departures
+    - show me departures
+- intent: flight_tracking
+  examples: |
+    - Flight Tracking
+    - flight tracking
+    - Track a flight
+    - track a flight
+- intent: lista_arrivi
+  examples: |
+    - 🛬 Arrivals 🛬
+    - Arrivals
+    - show me arrivals
+- intent: functions_searchaflight
+  examples: |
+    - Find a flight
+    - find a flight
+- intent: covid
+  examples: |
+    - covid
+    - covid info
+    - Covid19
+    - Give me informations about covid
+- intent: transport_button
+  examples: |
+    - Transportation
+    - transport info
+    - transportation
+- intent: bus
+  examples: |
+    - bus
+    - autobus
+    - I want to catch the bus
+- intent: train
+  examples: |
+    - train
+    - i want to go with train
+    - Train
+- intent: taxi
+  examples: |
+    - taxi
+    - cab
+    - Taxi
+    - taxi infos
+- intent: car
+  examples: |
+    - car
+    - i want to go with car
+    - Car
+- intent: go_back
+  examples: |
+    - back
+    - go back
+    - 🔙 Go back 🔙
+- intent: help
+  examples: |
+    - help
+    - Help me
+- intent: contact_us
+  examples: |
+    - Contact us
+    - contact us
+    - telephone number
+    - e-mail
+- intent: find_info
+  examples: |
+    - [FR125](find_info1)
+    - [lh1899](find_info1)
+    - [Lh1899](find_info1)
+    - [W63856](find_info1)
+    - [w63855](find_info1)
+    - [FR4490](find_info1)
+    - [v71704](find_info1)
+    - [V71511](find_info1)
+    - Give me infos about [lh1899](find_info1)
+    - Track [v71704](find_info1)
+    - flight [W63855](find_info1)
+- intent: out_of_scope
+  examples: |
+    - blablabla
+    - sadasdasdasd
+    - hmmmmm
+    - hahahahhaha
+    - im sleeping
+    - aeijfpvefvkèdlv
+    - lmlmlmlm
+    - uecwjeèqrpo
+    - aaaaaaaaaaaa
+    - pppppppppp
+    - kkkkkkk
+    - smdcspkèsj
+- lookup: find_info1
+  examples: |
+    - FR125
+    - LH1899
+    - LH1898
+    - LH1897
+    - LH1896
+    - LH1895
+    - LH1894
+    - LH1893
+    - FR125
+    - FR123
+    - FR122
+    - FR121
+    - FR8043
+    - FR8042
+    - FR4491
+    - FR4490
+    - V71703
+    - V71511
+    - W63856
+    - 2B195
+    - LH1889
+    - LH1888
+    - LH1887
+    - LH1886
+    - LH1885
+    - LH1884
+    - LH1883
+    - FR126
+    - FR127
+    - FR128
+    - FR129
+    - FR130
+    - FR8044
+    - FR8045
+    - FR4492
+    - FR4493
+    - V71704
+    - V71512
+    - W63855
+    - 2B196
+    - lh1899
+    - lh1898
+    - lh1897
+    - lh1896
+    - lh1895
+    - lh1894
+    - lh1893
+    - lh1889
+    - lh1888
+    - lh1887
+    - lh1886
+    - lh1885
+    - lh1884
+    - lh1883

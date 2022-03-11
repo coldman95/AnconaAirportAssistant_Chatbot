@@ -1,0 +1,58 @@
+version: "3.0"
+rules:
+- rule: Start the conversation
+  steps:
+  - intent: start
+  - action: utter_start
+- rule: Say the covid info
+  steps:
+  - intent: covid
+  - action: utter_covid
+- rule: Say the transportation info
+  steps:
+  - intent: transport_button
+  - action: utter_transport
+- rule: Say the bus info
+  steps:
+  - intent: bus
+  - action: utter_bus
+- rule: Say the train info
+  steps:
+  - intent: train
+  - action: utter_train
+- rule: Say the taxi info
+  steps:
+  - intent: taxi
+  - action: utter_taxi
+- rule: help
+  steps:
+  - intent: help
+  - action: utter_help
+- rule: Say the car info
+  steps:
+  - intent: car
+  - action: utter_car
+- rule: show other functions from search a flight
+  steps:
+    - intent: functions_searchaflight
+    - action: utter_buttons_searchaflight
+- rule: show other functions from flight tracking
+  steps:
+    - intent: flight_tracking
+    - action: utter_flight_tracking
+- rule: Search the file when user gives input
+  steps:
+  - intent: csv
+  - action: action_csv
+- rule: Search the file when user gives input with arrivals
+  steps:
+  - intent: arrival
+  - action: arrival_csv
+- rule: Go back menu
+  steps:
+  - intent: go_back
+  - action: utter_start
+- rule: contact us
+  steps:
+  - intent: contact_us
+  - action: utter_contact

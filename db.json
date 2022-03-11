@@ -1,0 +1,436 @@
+{
+  "items": [
+  {
+    "": 0,
+    "Airline company": "Lufthansa",
+    "Departure": "Ancona",
+    "Destination": "Munich",
+    "Frequency": "Monday",
+    "Time of departure": "13:25",
+    "Time of arrival": "14:40",
+    "Flight number": "LH1899"
+  },
+  {
+    "": 1,
+    "Airline company": "Lufthansa",
+    "Departure": "Ancona",
+    "Destination": "Munich",
+    "Frequency": "Tuesday",
+    "Time of departure": "13:25",
+    "Time of arrival": "14:40",
+    "Flight number": "LH1898"
+  },
+  {
+    "": 2,
+    "Airline company": "Lufthansa",
+    "Departure": "Ancona",
+    "Destination": "Munich",
+    "Frequency": "Wednesday",
+    "Time of departure": "13:25",
+    "Time of arrival": "14:40",
+    "Flight number": "LH1897"
+  },
+  {
+    "": 3,
+    "Airline company": "Lufthansa",
+    "Departure": "Ancona",
+    "Destination": "Munich",
+    "Frequency": "Thursday",
+    "Time of departure": "13:25",
+    "Time of arrival": "14:40",
+    "Flight number": "LH1896"
+  },
+  {
+    "": 4,
+    "Airline company": "Lufthansa",
+    "Departure": "Ancona",
+    "Destination": "Munich",
+    "Frequency": "Friday",
+    "Time of departure": "13:25",
+    "Time of arrival": "14:40",
+    "Flight number": "LH1895"
+  },
+  {
+    "": 5,
+    "Airline company": "Lufthansa",
+    "Departure": "Ancona",
+    "Destination": "Munich",
+    "Frequency": "Saturday",
+    "Time of departure": "13:25",
+    "Time of arrival": "14:40",
+    "Flight number": "LH1894"
+  },
+  {
+    "": 6,
+    "Airline company": "Lufthansa",
+    "Departure": "Ancona",
+    "Destination": "Munich",
+    "Frequency": "Sunday",
+    "Time of departure": "13:25",
+    "Time of arrival": "14:40",
+    "Flight number": "LH1893"
+  },
+  {
+    "": 7,
+    "Airline company": "Ryanair",
+    "Departure": "Ancona",
+    "Destination": "London Stansed",
+    "Frequency": "Tuesday",
+    "Time of departure": "21:35",
+    "Time of arrival": "22:55",
+    "Flight number": "FR125"
+  },
+  {
+    "": 8,
+    "Airline company": "Ryanair",
+    "Departure": "Ancona",
+    "Destination": "London Stansed",
+    "Frequency": "Thursday",
+    "Time of departure": "15:45",
+    "Time of arrival": "17:05",
+    "Flight number": "FR123"
+  },
+  {
+    "": 9,
+    "Airline company": "Ryanair",
+    "Departure": "Ancona",
+    "Destination": "London Stansed",
+    "Frequency": "Saturday",
+    "Time of departure": "10:15",
+    "Time of arrival": "11:35",
+    "Flight number": "FR122"
+  },
+  {
+    "": 10,
+    "Airline company": "Ryanair",
+    "Departure": "Ancona",
+    "Destination": "London Stansed",
+    "Frequency": "Sunday",
+    "Time of departure": "21:35",
+    "Time of arrival": "22:55",
+    "Flight number": "FR121"
+  },
+  {
+    "": 11,
+    "Airline company": "Ryanair",
+    "Departure": "Ancona",
+    "Destination": "Brusselles Charleroi",
+    "Frequency": "Tuesday",
+    "Time of departure": "14:15",
+    "Time of arrival": "16:10",
+    "Flight number": "FR8043"
+  },
+  {
+    "": 12,
+    "Airline company": "Ryanair",
+    "Departure": "Ancona",
+    "Destination": "Brusselles Charleroi",
+    "Frequency": "Saturday",
+    "Time of departure": "16:35",
+    "Time of arrival": "18:30",
+    "Flight number": "FR8042"
+  },
+  {
+    "": 13,
+    "Airline company": "Ryanair",
+    "Departure": "Ancona",
+    "Destination": "Cracow",
+    "Frequency": "Thursday",
+    "Time of departure": "14:35",
+    "Time of arrival": "16:20",
+    "Flight number": "FR4491"
+  },
+  {
+    "": 14,
+    "Airline company": "Ryanair",
+    "Departure": "Ancona",
+    "Destination": "Cracow",
+    "Frequency": "Sunday",
+    "Time of departure": "14:25",
+    "Time of arrival": "16:10",
+    "Flight number": "FR4490"
+  },
+  {
+    "": 15,
+    "Airline company": "Volotea",
+    "Departure": "Ancona",
+    "Destination": "Catania",
+    "Frequency": "Friday",
+    "Time of departure": "18:15",
+    "Time of arrival": "19:45",
+    "Flight number": "V71703"
+  },
+  {
+    "": 16,
+    "Airline company": "Volotea",
+    "Departure": "Ancona",
+    "Destination": "Palermo",
+    "Frequency": "Monday",
+    "Time of departure": "16:00",
+    "Time of arrival": "17:20",
+    "Flight number": "V71511"
+  },
+  {
+    "": 17,
+    "Airline company": "WizzAir",
+    "Departure": "Ancona",
+    "Destination": "Tirana",
+    "Frequency": "Monday",
+    "Time of departure": "17:30",
+    "Time of arrival": "18:45",
+    "Flight number": "W63856"
+  },
+  {
+    "": 18,
+    "Airline company": "Albawings",
+    "Departure": "Tirana",
+    "Destination": "Ancona",
+    "Frequency": "Thursday",
+    "Time of departure": "12:00",
+    "Time of arrival": "13:15",
+    "Flight number": "2B195"
+  },
+  {
+    "": 19,
+    "Airline company": "Lufthansa",
+    "Departure": "Munich",
+    "Destination": "Ancona",
+    "Frequency": "Monday",
+    "Time of departure": "11:35",
+    "Time of arrival": "12:50",
+    "Flight number": "LH1889"
+  },
+  {
+    "": 20,
+    "Airline company": "Lufthansa",
+    "Departure": "Munich",
+    "Destination": "Ancona",
+    "Frequency": "Tuesday",
+    "Time of departure": "11:35",
+    "Time of arrival": "12:50",
+    "Flight number": "LH1888"
+  },
+  {
+    "": 21,
+    "Airline company": "Lufthansa",
+    "Departure": "Munich",
+    "Destination": "Ancona",
+    "Frequency": "Wednesday",
+    "Time of departure": "11:35",
+    "Time of arrival": "12:50",
+    "Flight number": "LH1887"
+  },
+  {
+    "": 22,
+    "Airline company": "Lufthansa",
+    "Departure": "Munich",
+    "Destination": "Ancona",
+    "Frequency": "Thursday",
+    "Time of departure": "11:35",
+    "Time of arrival": "12:50",
+    "Flight number": "LH1886"
+  },
+  {
+    "": 23,
+    "Airline company": "Lufthansa",
+    "Departure": "Munich",
+    "Destination": "Ancona",
+    "Frequency": "Friday",
+    "Time of departure": "11:35",
+    "Time of arrival": "12:50",
+    "Flight number": "LH1885"
+  },
+  {
+    "": 24,
+    "Airline company": "Lufthansa",
+    "Departure": "Munich",
+    "Destination": "Ancona",
+    "Frequency": "Saturday",
+    "Time of departure": "11:35",
+    "Time of arrival": "12:50",
+    "Flight number": "LH1884"
+  },
+  {
+    "": 25,
+    "Airline company": "Lufthansa",
+    "Departure": "Munich",
+    "Destination": "Ancona",
+    "Frequency": "Sunday",
+    "Time of departure": "11:35",
+    "Time of arrival": "12:50",
+    "Flight number": "LH1883"
+  },
+  {
+    "": 26,
+    "Airline company": "Ryanair",
+    "Departure": "London Stansed",
+    "Destination": "Ancona",
+    "Frequency": "Monday",
+    "Time of departure": "17:50",
+    "Time of arrival": "21:10",
+    "Flight number": "FR126"
+  },
+  {
+    "": 27,
+    "Airline company": "Ryanair",
+    "Departure": "London Stansed",
+    "Destination": "Ancona",
+    "Frequency": "Tuesday",
+    "Time of departure": "11:50",
+    "Time of arrival": "15:10",
+    "Flight number": "FR127"
+  },
+  {
+    "": 28,
+    "Airline company": "Ryanair",
+    "Departure": "London Stansed",
+    "Destination": "Ancona",
+    "Frequency": "Thursday",
+    "Time of departure": "06:30",
+    "Time of arrival": "09:50",
+    "Flight number": "FR128"
+  },
+  {
+    "": 29,
+    "Airline company": "Ryanair",
+    "Departure": "London Stansed",
+    "Destination": "Ancona",
+    "Frequency": "Saturday",
+    "Time of departure": "17:50",
+    "Time of arrival": "21:10",
+    "Flight number": "FR129"
+  },
+  {
+    "": 30,
+    "Airline company": "Ryanair",
+    "Departure": "London Stansed",
+    "Destination": "Ancona",
+    "Frequency": "Sunday",
+    "Time of departure": "17:50",
+    "Time of arrival": "21:10",
+    "Flight number": "FR130"
+  },
+  {
+    "": 31,
+    "Airline company": "Ryanair",
+    "Departure": "Brusselles Charleroi",
+    "Destination": "Ancona",
+    "Frequency": "Tuesday",
+    "Time of departure": "12:05",
+    "Time of arrival": "13:50",
+    "Flight number": "FR8044"
+  },
+  {
+    "": 32,
+    "Airline company": "Ryanair",
+    "Departure": "Brusselles Charleroi",
+    "Destination": "Ancona",
+    "Frequency": "Saturday",
+    "Time of departure": "14:25",
+    "Time of arrival": "16:10",
+    "Flight number": "FR8045"
+  },
+  {
+    "": 33,
+    "Airline company": "Ryanair",
+    "Departure": "Cracow",
+    "Destination": "Ancona",
+    "Frequency": "Thursday",
+    "Time of departure": "12:25",
+    "Time of arrival": "14:10",
+    "Flight number": "FR4492"
+  },
+  {
+    "": 34,
+    "Airline company": "Ryanair",
+    "Departure": "Cracow",
+    "Destination": "Ancona",
+    "Frequency": "Sunday",
+    "Time of departure": "12:15",
+    "Time of arrival": "14:00",
+    "Flight number": "FR4493"
+  },
+  {
+    "": 35,
+    "Airline company": "Volotea",
+    "Departure": "Catania",
+    "Destination": "Ancona",
+    "Frequency": "Friday",
+    "Time of departure": "16:15",
+    "Time of arrival": "17:45",
+    "Flight number": "V71704"
+  },
+  {
+    "": 36,
+    "Airline company": "Volotea",
+    "Departure": "Palermo",
+    "Destination": "Ancona",
+    "Frequency": "Monday",
+    "Time of departure": "14:00",
+    "Time of arrival": "15:20",
+    "Flight number": "V71512"
+  },
+  {
+    "": 37,
+    "Airline company": "WizzAir",
+    "Departure": "Tirana",
+    "Destination": "Ancona",
+    "Frequency": "Monday",
+    "Time of departure": "15:35",
+    "Time of arrival": "16:55",
+    "Flight number": "W63855"
+  },
+  {
+    "": 38,
+    "Airline company": "Albawings",
+    "Departure": "Ancona",
+    "Destination": "Tirana",
+    "Frequency": "Thursday",
+    "Time of departure": "14:00",
+    "Time of arrival": "15:15",
+    "Flight number": "2B196"
+  }
+  ],
+  "monday": [
+      {
+        "": 39,
+        "Airline company": "Lufthansa",
+        "Departure": "Ancona",
+        "Destination": "Munich",
+        "Frequency": "Monday",
+        "Time of departure": "13:25",
+        "Time of arrival": "14:40",
+        "Flight number": "LH1899"
+      },
+      {
+        "": 40,
+        "Airline company": "Ryanair",
+        "Departure": "London Stansed",
+        "Destination": "Ancona",
+        "Frequency": "Monday",
+        "Time of departure": "17:50",
+        "Time of arrival": "21:10",
+        "Flight number": "FR126"
+      },
+      {
+        "": 41,
+        "Airline company": "Volotea",
+        "Departure": "Palermo",
+        "Destination": "Ancona",
+        "Frequency": "Monday",
+        "Time of departure": "14:00",
+        "Time of arrival": "15:20",
+        "Flight number": "V71512"
+      },
+      {
+        "": 42,
+        "Airline company": "WizzAir",
+        "Departure": "Tirana",
+        "Destination": "Ancona",
+        "Frequency": "Monday",
+        "Time of departure": "15:35",
+        "Time of arrival": "16:55",
+        "Flight number": "W63855"
+      }
+  ]
+}
